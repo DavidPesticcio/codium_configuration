@@ -1,38 +1,27 @@
 {
-
     "explorer.confirmDelete": false,
-
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.languageServer": "Pylance",
-
     // terminal
     "terminal.explorerKind": "external",
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.external.linuxExec": "x-terminal-emulator",
     "terminal.external.osxExec": "Terminal.app",
     "terminal.external.windowsExec": "C:\\Windows\\System32\\cmd.exe",
-
-
     "settingsSync.keybindingsPerPlatform": false,
-
     // sync 
-
     "sync.removeExtensions": false,
-    "sync.syncExtensions": false,    
+    "sync.syncExtensions": false,
     "sync.autoDownload": false,
     "sync.autoUpload": false,
-    "settingsSync.ignoredExtensions": [
-    ],
-
+    "settingsSync.ignoredExtensions": [],
     // workbench
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
     "workbench.editor.highlightModifiedTabs": true,
-
     // git
     "git.enableStatusBarSync": true,
-
     // editor
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.showFoldingControls": "always",
@@ -49,16 +38,16 @@
     "editor.wordWrap": "on",
     "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback','DejaVu Sans Mono', 'Source Code Pro for Powerline'",
     "editor.fontSize": 15,
-
     // exclude
     "files.exclude": {
-		"**/.git": true,
-		"**/.svn": true,
-		"**/.hg": true,
-		"**/CVS": true,
-		"**/.DS_Store": true
-        },
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
     // search config
     "search.useGlobalIgnoreFiles": true,
-    "search.useIgnoreFiles": true
+    "search.useIgnoreFiles": true,
+    "security.workspace.trust.enabled": false
 }
