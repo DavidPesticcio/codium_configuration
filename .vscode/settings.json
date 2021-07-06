@@ -20,6 +20,7 @@
         "*.ipynb": "jupyter.notebook.ipynb"
     },
     "workbench.editor.highlightModifiedTabs": true,
+    "workbench.startupEditor": "readme",
     // git
     "git.enableStatusBarSync": true,
     // editor
