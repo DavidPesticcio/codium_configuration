@@ -19,8 +19,8 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
+    "workbench.colorTheme": "Monokai",
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.startupEditor": "readme",
     // git
     "git.enableStatusBarSync": true,
     // editor
@@ -29,7 +29,7 @@
     "editor.suggestSelection": "first",
     "editor.snippetSuggestions": "top",
     "editor.accessibilityPageSize": 12,
-    "workbench.colorTheme": "Monokai",
+    "editor.showCallHierarchy": true,
     "editor.foldingHighlight": true,
     "editor.mouseWheelZoom": true,
     "editor.fontLigatures": true,
