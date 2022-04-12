@@ -1,1 +1,2 @@
-# visual_code_config
+# 1. Codium Configuration
+# 2. Zsh History && Configuration
