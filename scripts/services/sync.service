@@ -2,7 +2,7 @@
 Description=Syncing the Codium Configuration Service
 
 [Service]
-ExecStart=
+ExecStart=/bin/bash -c "${REPO_DIRECTORY}/scripts/syncing_script.sh"
 Restart=always
 
 [Install]

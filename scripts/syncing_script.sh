@@ -1,9 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
-readonly CURRENT_DIR="$(pwd)"
-
-while true
+while :
 do
-  ${CURRENT_DIR}/scripts/codium_to_git.sh
-  sleep 1800 # sleep 30min
+  exec "${REPO_DIRECTORY}/scripts/codium_to_git.sh"
+  sleep 1 # sleep 30min
 done

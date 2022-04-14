@@ -1,5 +1,2 @@
 #!/bin/bash
-
-readonly CURRENT_DIR="$(pwd)"
-
-exec "{$CURRENT_DIR}/Codium/extensions/extension.sh"
+exec "{$REPO_DIRECTORY}/Codium/extensions/extension.sh"
