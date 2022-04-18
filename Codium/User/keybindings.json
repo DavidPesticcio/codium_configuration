@@ -205,5 +205,13 @@
         "key": "ctrl+k ctrl+0",
         "command": "-editor.unfoldAll",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+g v",
+        "command": "gitlens.showCommitsView"
+    },
+    {
+        "key": "ctrl+shift+g n",
+        "command": "gitlens.showBranchesView"
     }
 ]

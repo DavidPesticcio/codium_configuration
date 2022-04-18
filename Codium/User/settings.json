@@ -1,5 +1,4 @@
 {
-    "explorer.confirmDelete": false,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.external.linuxExec": "x-terminal-emulator",
@@ -80,7 +79,6 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
     },
-    "workbench.colorTheme": "Monokai",
     "workbench.colorCustomizations": {},
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
@@ -125,7 +123,13 @@
         "reportOptionalSubscript": "warning",
         "reportGeneralTypeIssues": "information",
         "reportOptionalMemberAccess": "information",
-        "reportOptionalOperand": "warning"
+        "reportOptionalOperand": "warning",
+        "reportUnknownArgumentType": "warning",
+        "reportUnknownParameterType": "warning",
+        "reportMissingParameterType": "warning",
+        "reportMissingTypeArgument": "warning",
+        "reportUnknownMemberType": "warning",
+        "reportUnknownVariableType": "information",
     },
     "thunder-client.codeSnippetLanguage": "python-requests",
     "sourcery.token": "user_ScRILzNurZHOCockDyX7AtHB2AJSQBL3CKZiT3h84VbhlWSWW7_3dgVaXNU",
@@ -149,7 +153,6 @@
     "python.insidersChannel": "off",
     "search.quickOpen.includeSymbols": true,
     "editor.linkedEditing": true,
-    "python.analysis.typeCheckingMode": "basic",
     "vim.overrideCopy": false,
     "vim.useCtrlKeys": false,
     "vim.hlsearch": true,
@@ -185,5 +188,29 @@
     "workbench.editor.autoLockGroups": {
         "mainThreadWebview-markdown.preview": true
     },
-    "workbench.view.alwaysShowHeaderActions": true
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.tree.indent": 9,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 8,
+    "workbench.editor.navigationScope": "editor",
+    "workbench.editor.openPositioning": "left",
+    "workbench.editor.openSideBySideDirection": "down",
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.untitled.labelFormat": "name",
+    "workbench.editor.wrapTabs": true,
+    "workbench.colorTheme": "Monokai",
+    "window.menuBarVisibility": "compact",
+    "window.zoomLevel": 0.1,
+    "explorer.incrementalNaming": "smart",
+    "search.searchEditor.reusePriorSearchConfiguration": true,
+    "search.showLineNumbers": true,
+    "search.useParentIgnoreFiles": true,
+    "search.useGlobalIgnoreFiles": true,
+    "problems.showCurrentInStatus": true,
+    "pyright.disableOrganizeImports": true,
+    "vim.highlightedyank.enable": true,
+    "python.analysis.typeCheckingMode": "strict"
 }
