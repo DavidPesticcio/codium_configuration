@@ -177,5 +177,13 @@
             }
         ]
     },
-    "search.searchOnType": false
+    "search.searchOnType": false,
+    "scm.alwaysShowRepositories": true,
+    "scm.alwaysShowActions": true,
+    "remote.downloadExtensionsLocally": true,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.editor.autoLockGroups": {
+        "mainThreadWebview-markdown.preview": true
+    },
+    "workbench.view.alwaysShowHeaderActions": true
 }

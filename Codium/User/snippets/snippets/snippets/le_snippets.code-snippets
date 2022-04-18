@@ -1,0 +1,89 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Delete the entity & map": {
+		"prefix": "delmap",
+		"body": [
+			"if '${1:entity}' not in self._notice:",
+			"\tself._notice['${1:entity}'] = True",
+			"\tself.clear_target_${2:entities}()",
+			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': '${1:entity}'})"
+		],
+		"description": "delete the entity and the map"
+	},
+	"Delete the products & map": {
+		"prefix": "delproduct",
+		"body": [
+			"if 'product' not in self._notice:",
+			"\tself._notice['product'] = True",
+			"\tself.clear_target_products()",
+			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'product'})",
+			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'product_child'})",
+			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'attr'})",
+			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'attr_option'})",
+			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'attr_value'})"
+		],
+		"description": ""
+	},
+	"Log data": {
+		"prefix": "logdata",
+		"body": [
+			"self.log(${1:convert}, '${2:convert}')"
+		],
+		"description": "Log data"
+	},
+	"Shopify API Run": {
+		"prefix": "sapiupdate",
+		"body": [
+			"update = self.api(f\"${1:product}s/{${1:product}_id}.json\", ${2:update_data}, 'put')",
+			"self.log(update, 'update_${1:product}')"
+		]
+	},
+	"Check Import": {
+		"prefix": "cimport",
+		"body": [
+			"${1:product}_id = self.get_map_field_by_src(self.TYPE_${2:PRODUCT}, convert['id'], convert['code'])",
+			"if ${1:product}_id:"
+		]
+	},
+	"Typing Hint": {
+		"prefix": "typinghint",
+		"body": [
+			"from typing_hint_model.convert_model import ProductOptionType, ProductOptionValueType, ProductAttributeType, ProductConvertType, OrderConvertType, CategoryConvertType, CustomerConvertType, ImageType"
+		]
+	},
+	"Create Query Dict": {
+		"prefix": "querydict",
+		"body": [
+			"_query_${1:1} = {",
+			"\t\"type\": \"${2:select}\",",
+			"\t\"query\": f\"${3:query}\"",
+			"}"
+		]
+	},
+	"Create Select Query": {
+		"prefix": "selectquery",
+		"body": [
+			"'${1:data}': {",
+			"\t\"type\": \"${2:select}\",",
+			"\t\"query\": f\"${3:query}\"",
+			"}"
+		]
+	},
+	"Check run time data": {
+		"prefix": "runtime",
+		"body": [
+			"start = time.time()",
+			"${2:code}",
+			"stop = time.time()",
+			"run_time = stop - start",
+			"report = {\"${1:content}\": run_time}",
+			"self.log(report, 'run_time_report')",
+			"del start, stop, run_time, report"
+		],
+		"description": "check run time of the code"
+	},
+}
