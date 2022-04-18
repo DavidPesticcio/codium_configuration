@@ -118,3 +118,7 @@ alias rm="rm -iv"
 autoload -Uz compinit
 zstyle ':completion:*' menu select
 fpath+=~/.zfunc
+export REPO_DIRECTORY="/home/dev/git-github/codium"
+export CODIUM_USER_CONFIG_PATH="${HOME}/.config/VSCodium/User"
+
+export PATH="$HOME/.poetry/bin:$PATH"

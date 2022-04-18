@@ -49,9 +49,7 @@
         "**/CVS": true,
         "**/.DS_Store": true
     },
-    // search config
-    "search.useGlobalIgnoreFiles": true,
-    "search.useIgnoreFiles": true,
+    "search.useIgnoreFiles": false,
     "redhat.telemetry.enabled": false,
     // "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     "notebook.cellToolbarLocation": {
@@ -178,5 +176,6 @@
                 "silent": false,
             }
         ]
-    }
+    },
+    "search.searchOnType": false
 }
