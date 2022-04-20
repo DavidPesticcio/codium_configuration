@@ -15,7 +15,7 @@ scripts/sync_codium.sh
 ```
 
 # 2. Zsh History && Configuration
-Run these following command sync the ZSH history & configuration from local to repo:
+Run these following command sync the ZSH history & configuration and then choosing the options:
 ```
 scripts/sync_zsh.sh
 ```
