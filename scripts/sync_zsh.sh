@@ -1,8 +1,21 @@
 #!/bin/bash
 while true; do
-    read -p "Do you want to copy ZSH configuration to repository? [Y/n] " yn
-    case $yn in
-        [Yy]* ) cp -u "${HOME}/.zshrc" "${REPO_DIRECTORY}/zsh/dev/.zshrc"; cp -u "${HOME}/.zsh_history" "${REPO_DIRECTORY}/zsh/dev/.zsh_history"; break;;
-        [Nn]* ) exit;;
+    read -p "Sync ZSH configuration & history:
+    1. From LOCAL to REPOSITORY
+    2. From REPOSITORY to LOCAL
+    Choose 1 or 2: " option
+    case $option in
+        [1] )
+            read -p "Which User? (for example dev): " user
+            echo "### Sycing from LOCAL to REPO";
+            cp -u "${HOME}/.zshrc" "${REPO_DIRECTORY}/zsh/$user/.zshrc"; cp -u "${HOME}/.zsh_history" "${REPO_DIRECTORY}/zsh/$user/.zsh_history";
+            echo "### Done";
+            break;;
+        [2] )
+            read -p "Which User? (for example dev): " user
+            echo "### Syncing from REPO to LOCAL"
+            cp -u "${REPO_DIRECTORY}/zsh/$user/.zshrc" "${HOME}/.zshrc"; cp -u "${REPO_DIRECTORY}/zsh/$user/.zsh_history" "${HOME}/.zsh_history";
+            echo "### Done";
+            break;;
     esac
 done
