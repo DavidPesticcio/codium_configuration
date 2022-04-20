@@ -8,16 +8,10 @@ For example:
 - CODIUM_USER_CONFIG_PATH="${HOME}/.config/VSCodium/User"
 
 # 1. Codium Configuration:
-Run these following command to sync the codium configuration from repo to local:
+Run these following command to sync the codium configuration and then choosing the options:
 
 ```
-scripts/codium_from_git.sh
-scripts/install_extension.sh
-```
-
-Run these following command to sync the codium configuration from local to git:
-```
-scripts/codium_to_git.sh
+scripts/sync_codium.sh
 ```
 
 # 2. Zsh History && Configuration

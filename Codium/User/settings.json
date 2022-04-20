@@ -178,5 +178,6 @@
         ]
     },
     "search.searchOnType": false,
-    "window.zoomLevel": 0.09
+    "window.zoomLevel": 0.09,
+    "editor.multiCursorModifier": "ctrlCmd"
 }

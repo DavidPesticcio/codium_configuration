@@ -5,7 +5,6 @@ codium --install-extension eamodio.gitlens
 codium --install-extension EditorConfig.EditorConfig
 codium --install-extension foxundermoon.shell-format
 codium --install-extension HookyQR.beautify
-codium --install-extension jevakallio.vscode-hacker-typer
 codium --install-extension jonrad.docker-diary-vscode
 codium --install-extension ms-azuretools.vscode-docker
 codium --install-extension ms-pyright.pyright
