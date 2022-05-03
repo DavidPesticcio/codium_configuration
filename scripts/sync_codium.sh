@@ -22,7 +22,7 @@ while true; do
             while true; do
                 read -p "Confirm [Y/n]:" yn
                 case $yn in
-                    [Yy]* )  cp -ur "${REPO_DIRECTORY}/Codium/User" "${CODIUM_USER_CONFIG_PATH}";
+                    [Yy]* )  cp -ur "${REPO_DIRECTORY}/Codium/User/" "${CODIUM_USER_CONFIG_PATH}";
                         break;;
                     [Nn]* ) exit;;
                 esac
