@@ -207,11 +207,15 @@
         "when": "editorFocus"
     },
     {
-        "key": "ctrl+shift+g v",
+        "key": "ctrl+shift+g m",
         "command": "gitlens.showCommitsView"
     },
     {
         "key": "ctrl+shift+g n",
         "command": "gitlens.showBranchesView"
+    },
+    {
+        "key": "ctrl+shift+g r",
+        "command": "gitlens.showRemotesView"
     }
 ]

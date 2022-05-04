@@ -11,6 +11,7 @@ codium --install-extension ms-pyright.pyright
 codium --install-extension ms-vscode.live-server
 codium --install-extension ms-vscode.sublime-keybindings
 codium --install-extension mtxr.sqltools
+codium --install-extension njpwerner.autodocstring
 codium --install-extension PKief.material-icon-theme
 codium --install-extension redhat.vscode-yaml
 codium --install-extension sourcery.sourcery
