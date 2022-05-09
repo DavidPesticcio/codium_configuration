@@ -31,7 +31,7 @@
 	"Log data": {
 		"prefix": "logdata",
 		"body": [
-			"self.log(${1:convert}, '${2:convert}')"
+			"self.log(${1:convert}, '${2:entity}_convert')"
 		],
 		"description": "Log data"
 	},
