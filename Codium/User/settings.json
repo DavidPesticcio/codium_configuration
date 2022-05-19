@@ -177,7 +177,6 @@
         ]
     },
     "search.searchOnType": false,
-    "window.zoomLevel": 0.09,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "terminal.integrated.enablePersistentSessions": false,
     "workbench.colorTheme": "Monokai",
