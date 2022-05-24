@@ -22,8 +22,6 @@
 			"\tself.clear_target_products()",
 			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'product'})",
 			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'product_child'})",
-			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'option'})",
-			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'option_value'})",
 			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'attr'})",
 			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'attr_option'})",
 			"\tself.delete_obj('migration_map', where={'migration_id': self._migration_id, 'type': 'attr_value'})"
@@ -33,7 +31,7 @@
 	"Log data": {
 		"prefix": "logdata",
 		"body": [
-			"self.log(${1:convert}, '${2:entity}_convert')"
+			"self.log(${1:convert}, '${2:convert}')"
 		],
 		"description": "Log data"
 	},

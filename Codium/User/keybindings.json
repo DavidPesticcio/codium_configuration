@@ -217,5 +217,13 @@
     {
         "key": "ctrl+shift+g r",
         "command": "gitlens.showRemotesView"
+    },
+    {
+        "key": "ctrl+alt+\\",
+        "command": "terminal.focus"
+    },
+    {
+        "key": "ctrl+shift+g v",
+        "command": "gitlens.views.timeline.focus"
     }
 ]

@@ -1,7 +1,7 @@
 {
     "explorer.confirmDelete": false,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontFamily": "monospace",
     "terminal.external.linuxExec": "x-terminal-emulator",
     "terminal.external.osxExec": "Terminal.app",
     "terminal.external.windowsExec": "C:\\Windows\\System32\\cmd.exe",
