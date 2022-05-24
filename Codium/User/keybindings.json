@@ -233,5 +233,13 @@
     {
         "key": "ctrl+shift+u k",
         "command": "workbench.action.terminal.resizePaneUp"
+    },
+    {
+        "key": "ctrl+shift+u e",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "ctrl+shift+u o",
+        "command": "outline.collapse"
     }
 ]
