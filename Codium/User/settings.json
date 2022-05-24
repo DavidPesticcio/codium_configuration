@@ -160,7 +160,6 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "editor.minimap.enabled": false,
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.foldingMaximumRegions": 2500,
     "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -182,5 +181,6 @@
     "workbench.colorTheme": "Monokai",
     "search.exclude": {
         "**/venv/**": true
-    }
+    },
+    "editor.minimap.enabled": false
 }

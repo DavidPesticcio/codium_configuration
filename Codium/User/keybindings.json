@@ -241,5 +241,9 @@
     {
         "key": "ctrl+shift+u o",
         "command": "outline.collapse"
+    },
+    {
+        "key": "ctrl+k q",
+        "command": "workbench.action.closeEditorsAndGroup"
     }
 ]
