@@ -225,5 +225,13 @@
     {
         "key": "ctrl+shift+g v",
         "command": "gitlens.views.timeline.focus"
+    },
+    {
+        "key": "ctrl+shift+u j",
+        "command": "workbench.action.terminal.resizePaneDown"
+    },
+    {
+        "key": "ctrl+shift+u k",
+        "command": "workbench.action.terminal.resizePaneUp"
     }
 ]
