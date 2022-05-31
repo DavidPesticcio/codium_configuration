@@ -182,5 +182,6 @@
     "search.exclude": {
         "**/venv/**": true
     },
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "python.pythonPath": "./venv/bin/python3"
 }
