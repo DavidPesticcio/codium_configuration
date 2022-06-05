@@ -184,6 +184,5 @@
     },
     "editor.minimap.enabled": false,
     "python.pythonPath": "./venv/bin/python3",
-    "resmon.show.cputemp": true,
     "window.zoomLevel": 0.35
 }
