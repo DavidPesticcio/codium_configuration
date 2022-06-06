@@ -122,3 +122,6 @@ export REPO_DIRECTORY="/home/dev/git-github/codium"
 export CODIUM_USER_CONFIG_PATH="${HOME}/.config/VSCodium/User"
 
 export PATH="$HOME/.poetry/bin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
