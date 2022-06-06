@@ -245,5 +245,9 @@
     {
         "key": "ctrl+k q",
         "command": "workbench.action.closeEditorsAndGroup"
+    },
+    {
+        "key": "ctrl+escape",
+        "command": "workbench.action.closePanel"
     }
 ]
