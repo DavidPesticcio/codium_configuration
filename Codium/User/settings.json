@@ -163,7 +163,6 @@
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.foldingMaximumRegions": 2500,
     "terminal.integrated.enableMultiLinePasteWarning": false,
-    "workbench.sideBar.location": "right",
     // "pylance."
     "saveAndRun": {
         "commands": [
@@ -184,5 +183,10 @@
     },
     "editor.minimap.enabled": false,
     "python.pythonPath": "./venv/bin/python3",
+<<<<<<< HEAD
     "window.zoomLevel": 0.35
+=======
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 0.15
+>>>>>>> 4da63c96aa867f0bff747769761257582995bc31
 }
