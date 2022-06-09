@@ -115,7 +115,7 @@
     "WolframLanguageServer.WolframPath": "/usr/local/Wolfram/WolframEngine/12.3/Executables/wolfram",
     "WolframLanguageServer.WLServerPath": "/usr/local/Wolfram/lsp-wl",
     "intelephense.telemetry.enabled": false,
-    "python.venvPath": "./venv",
+    "python.venvPath": "./.venv",
     "python.analysis.diagnosticSeverityOverrides": {
         "reportOptionalIterable": "warning",
         "reportUnboundVariable": "information",
@@ -182,7 +182,7 @@
         "**/venv/**": true
     },
     "editor.minimap.enabled": false,
-    "python.pythonPath": "./venv/bin/python3",
+    "python.pythonPath": "./.venv/bin/python3",
     "workbench.sideBar.location": "right",
     "window.zoomLevel": 0.2
 }
