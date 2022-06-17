@@ -12,6 +12,21 @@
             "label": "Sync ZSH Settings & History",
             "type": "shell",
             "command": "./scripts/sync_zsh.sh"
-        }
+        },
+        {
+            "label": "Git Add Change",
+            "type": "shell",
+            "command": "git add ."
+        },
+        {
+            "label": "Git Commit Change",
+            "type": "shell",
+            "command": "git commit -m 'sync codium & zsh configuration'"
+        },
+        {
+            "label": "Git Push Change",
+            "type": "shell",
+            "command": "git push"
+        },
     ]
 }
