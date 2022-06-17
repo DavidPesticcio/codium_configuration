@@ -179,7 +179,8 @@
     "terminal.integrated.enablePersistentSessions": false,
     "workbench.colorTheme": "Monokai",
     "search.exclude": {
-        "**/venv/**": true
+        "**/venv/**": true,
+        "**/.venv/**": true
     },
     "editor.minimap.enabled": false,
     "python.pythonPath": "./.venv/bin/python3",
