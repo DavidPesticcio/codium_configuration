@@ -1,6 +1,9 @@
 # 0. Set up for the ENV
 ---
-Create `.env` based on in the `.env.sample`:
+Create `.env` based on in the `.env.sample` & run this task in ONLY 1 TIME (or using Ctrl + Shift + P):
+```
+Terminal > Run Task > Set Environment Variable
+```
 
 For example:
 

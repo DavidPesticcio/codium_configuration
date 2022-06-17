@@ -28,5 +28,10 @@
             "type": "shell",
             "command": "git push"
         },
+        {
+            "label": "Set Environment Variable",
+            "type": "shell",
+            "command": "set -a && source .env && set +a"
+        },
     ]
 }
