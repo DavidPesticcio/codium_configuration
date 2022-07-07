@@ -137,7 +137,7 @@
         "compounds": []
     },
     "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[json]": {
         "editor.defaultFormatter": "HookyQR.beautify"
@@ -185,5 +185,5 @@
     "editor.minimap.enabled": false,
     "python.pythonPath": "./.venv/bin/python3",
     "workbench.sideBar.location": "right",
-    "window.zoomLevel": 0.25
+    "window.zoomLevel": 0.2
 }
