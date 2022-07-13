@@ -8,6 +8,7 @@ codium --install-extension foxundermoon.shell-format
 codium --install-extension HookyQR.beautify
 codium --install-extension ms-azuretools.vscode-docker
 codium --install-extension ms-pyright.pyright
+codium --install-extension ms-python.python
 codium --install-extension ms-vscode.live-server
 codium --install-extension ms-vscode.sublime-keybindings
 codium --install-extension mtxr.sqltools

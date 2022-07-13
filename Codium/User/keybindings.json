@@ -249,5 +249,9 @@
     {
         "key": "ctrl+escape",
         "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "ctrl+k i",
+        "command": "editor.action.transformToTitlecase"
     }
 ]
