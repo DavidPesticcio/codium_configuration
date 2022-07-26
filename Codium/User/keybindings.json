@@ -253,5 +253,13 @@
     {
         "key": "ctrl+k i",
         "command": "editor.action.transformToTitlecase"
+    },
+    {
+        "key": "ctrl+e ctrl+n",
+        "command": "workbench.action.nextSideBarView"
+    },
+    {
+        "key": "ctrl+e ctrl+p",
+        "command": "workbench.action.previousSideBarView"
     }
 ]

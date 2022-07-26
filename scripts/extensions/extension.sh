@@ -17,4 +17,5 @@ codium --install-extension PKief.material-icon-theme
 codium --install-extension redhat.vscode-yaml
 codium --install-extension sourcery.sourcery
 codium --install-extension vscodevim.vim
+codium --install-extension xabikos.JavaScriptSnippets
 codium --install-extension yzhang.markdown-all-in-one

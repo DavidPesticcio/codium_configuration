@@ -1,7 +1,6 @@
 {
     "explorer.confirmDelete": false,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "terminal.integrated.fontFamily": "monospace",
     "terminal.external.linuxExec": "x-terminal-emulator",
     "terminal.external.osxExec": "Terminal.app",
     "terminal.external.windowsExec": "C:\\Windows\\System32\\cmd.exe",
@@ -28,7 +27,7 @@
     "editor.fontWeight": "normal",
     "editor.tabCompletion": "on",
     "editor.wordWrap": "on",
-    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback','DejaVu Sans Mono', 'Source Code Pro for Powerline', 'Operator Mono'",
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', 'Droid Sans Fallback','DejaVu Sans Mono', 'Source Code Pro for Powerline', 'Operator Mono', 'Menlo for Powerline'",
     "editor.fontSize": 15,
     "editor.maxTokenizationLineLength": 200000,
     "editor.codeActionsOnSave": null,
@@ -62,7 +61,6 @@
         "file:///home/kris/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "atlascode.bitbucket.enabled": false,
-    "terminal.integrated.automationShell.linux": "",
     "window.closeWhenEmpty": true,
     "files.watcherExclude": {
         "**/*.*venv*/**": true,
@@ -183,7 +181,6 @@
     "editor.minimap.enabled": false,
     "python.pythonPath": "./.venv/bin/python3",
     "workbench.sideBar.location": "right",
-    "window.zoomLevel": 0.25,
     "python.analysis.logLevel": "Warning",
     "diffEditor.ignoreTrimWhitespace": false,
     "python.defaultInterpreterPath": ".venv/bin/python",
@@ -195,4 +192,9 @@
     "python.linting.enabled": true,
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "window.commandCenter": true,
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
 }
