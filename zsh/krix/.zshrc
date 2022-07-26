@@ -14,7 +14,7 @@ ZSH_THEME="agnoster"
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -70,7 +70,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git terraform docker zsh-autosuggestions poetry sudo zsh-syntax-highlighting)
+plugins=(git terraform docker zsh-autosuggestions poetry sudo zsh-syntax-highlighting z vscode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -120,3 +120,8 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+function gaio() {
+  git add .
+  git commit -m "$1"
+  git push 
+}
