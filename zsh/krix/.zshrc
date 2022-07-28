@@ -107,7 +107,7 @@ alias c="clear"
 alias py="python3"
 alias ins="sudo apt install"
 alias rem="sudo apt purge"
-alias upd="sudo apt-get update"
+alias upd="sudo apt update"
 alias upg="sudo apt-get upgrade"
 
 export PATH="$HOME/.poetry/bin:$PATH"
@@ -125,3 +125,4 @@ function gaio() {
   git commit -m "$1"
   git push 
 }
+export GITLAB_HOME=/srv/gitlab
