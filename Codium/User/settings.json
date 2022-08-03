@@ -208,5 +208,12 @@
         "ui.semanticTokens": true,
         "formatting.gofumpt": true,
         "editor.defaultFormatter": "golang.go"
-    }
+    },
+    "filebunny.excludes": [
+        "**/.git/**",
+        "**/node_modules/**",
+        "**/.venv/**",
+        "**/venv/**",
+        "**/__pycache__/**"
+    ]
 }
