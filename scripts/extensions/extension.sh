@@ -5,6 +5,7 @@ codium --install-extension dsznajder.es7-react-js-snippets
 codium --install-extension eamodio.gitlens
 codium --install-extension EditorConfig.EditorConfig
 codium --install-extension foxundermoon.shell-format
+codium --install-extension golang.go
 codium --install-extension HookyQR.beautify
 codium --install-extension ms-azuretools.vscode-docker
 codium --install-extension ms-pyright.pyright
@@ -15,6 +16,7 @@ codium --install-extension mtxr.sqltools
 codium --install-extension njpwerner.autodocstring
 codium --install-extension PKief.material-icon-theme
 codium --install-extension redhat.vscode-yaml
+codium --install-extension robole.file-bunny
 codium --install-extension sourcery.sourcery
 codium --install-extension vscodevim.vim
 codium --install-extension xabikos.JavaScriptSnippets

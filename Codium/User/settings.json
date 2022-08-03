@@ -1,13 +1,35 @@
 {
     "explorer.confirmDelete": false,
+    /* Debug */
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.javascript.automaticallyTunnelRemoteServer": false,
+    //
+    /* Terminal */
     "terminal.external.linuxExec": "x-terminal-emulator",
     "terminal.external.osxExec": "Terminal.app",
     "terminal.external.windowsExec": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
+    //
+    /* Wordbench */
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
     "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorCustomizations": {},
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Monokai",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.untitled.hint": "hidden",
+    //
+    /* Git */
     "git.enableStatusBarSync": true,
+    //
+    /* Editor */
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.showFoldingControls": "always",
     "editor.suggestSelection": "first",
     "editor.snippetSuggestions": "top",
@@ -21,14 +43,21 @@
     "editor.fontFamily": "Menlo for Powerline",
     "editor.fontSize": 15,
     "editor.maxTokenizationLineLength": 200000,
-    "editor.codeActionsOnSave": null,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
     "editor.largeFileOptimizations": false,
-    // Controls the font family.
-    // "editor.fontFamily": "Operator Mono",
-    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+    "editor.linkedEditing": true,
+    "editor.formatOnPaste": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.foldingMaximumRegions": 2500,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
     "editor.lineHeight": 24,
-    // Enables font ligatures
-    // "editor.fontLigatures": true,
+    //
     // Controls if file decorations should use badges.
     "explorer.decorations.badges": false,
     // exclude
@@ -39,13 +68,23 @@
         "**/CVS": true,
         "**/.DS_Store": true
     },
+    "files.trimTrailingWhitespace": true,
+    /* Search & Extension */
     "search.useIgnoreFiles": false,
+    "search.quickOpen.includeSymbols": true,
+    "search.searchOnType": false,
+    "search.exclude": {
+        "**/venv/**": true,
+        "**/.venv/**": true
+    },
     "redhat.telemetry.enabled": false,
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
     "extensions.ignoreRecommendations": true,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
     "json.maxItemsComputed": 2000000,
     "yaml.schemas": {
         "file:///home/kris/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
@@ -58,36 +97,18 @@
         "**/*venv*/**": true,
         "**/venv/**": true
     },
-    "python.globalModuleInstallation": true,
     "files.associations": {
         "*.conf": "powershell",
         "*.txt": "python"
     },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
-    },
-    "workbench.colorCustomizations": {},
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    /* Python */
+    "python.globalModuleInstallation": true,
     "python.languageServer": "None",
     "python.linting.lintOnSave": false,
-    "workbench.enableExperiments": false,
-    "workbench.settings.enableNaturalLanguageSearch": false,
-    "update.mode": "none",
-    "extensions.autoUpdate": false,
-    "material-icon-theme.files.associations": {},
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.activeIconPack": "vue",
-    "material-icon-theme.showUpdateMessage": true,
-    "docker.truncateMaxLength": 5,
-    "markdown.extension.print.theme": "dark",
     "python.linting.maxNumberOfProblems": 50,
     "python.diagnostics.sourceMapsEnabled": true,
     "python.linting.flake8CategorySeverity.F": "Hint",
     "python.testing.pytestEnabled": true,
-    "WolframLanguageServer.WolframPath": "/usr/local/Wolfram/WolframEngine/12.3/Executables/wolfram",
-    "WolframLanguageServer.WLServerPath": "/usr/local/Wolfram/lsp-wl",
-    "intelephense.telemetry.enabled": false,
     "python.venvPath": "./.venv",
     "python.analysis.diagnosticSeverityOverrides": {
         "reportOptionalIterable": "warning",
@@ -99,40 +120,77 @@
         "reportOptionalMemberAccess": "information",
         "reportOptionalOperand": "warning"
     },
-    "sourcery.token": "user_ScRILzNurZHOCockDyX7AtHB2AJSQBL3CKZiT3h84VbhlWSWW7_3dgVaXNU",
-    "docker.images.label": "Tag",
     "python.analysis.useLibraryCodeForTypes": true,
-    "debug.showBreakpointsInOverviewRuler": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.logLevel": "Warning",
+    "python.pythonPath": "./.venv/bin/python3",
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.experiments.enabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    //
+    /* Telemetry & Theme */
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "update.mode": "none",
+    "material-icon-theme.files.associations": {},
+    "material-icon-theme.activeIconPack": "vue",
+    "material-icon-theme.showUpdateMessage": true,
+    "docker.truncateMaxLength": 5,
+    "docker.images.label": "Tag",
+    "markdown.extension.print.theme": "dark",
+    "WolframLanguageServer.WolframPath": "/usr/local/Wolfram/WolframEngine/12.3/Executables/wolfram",
+    "WolframLanguageServer.WLServerPath": "/usr/local/Wolfram/lsp-wl",
+    "intelephense.telemetry.enabled": false,
+    "sourcery.token": "user_ScRILzNurZHOCockDyX7AtHB2AJSQBL3CKZiT3h84VbhlWSWW7_3dgVaXNU",
     "launch": {
         "configurations": [],
         "compounds": []
     },
+    //
+    /* Formatter */
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "search.quickOpen.includeSymbols": true,
-    "editor.linkedEditing": true,
-    "python.analysis.typeCheckingMode": "basic",
+    "[javascript][javascriptreact][typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json][jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[css][scss][less]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    //
+    /* JS, CSS, HTML*/
+    "html.autoClosingTags": true,
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    //
+    /* Vim */
     "vim.overrideCopy": false,
     "vim.useCtrlKeys": false,
     "vim.hlsearch": true,
-    "editor.formatOnPaste": true,
-    "extensions.autoCheckUpdates": false,
-    "editor.minimap.renderCharacters": false,
-    "debug.javascript.automaticallyTunnelRemoteServer": false,
-    "editor.unicodeHighlight.invisibleCharacters": false,
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    "editor.foldingMaximumRegions": 2500,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
+    //
     // "pylance."
     "saveAndRun": {
         "commands": [
@@ -144,36 +202,11 @@
             }
         ]
     },
-    "search.searchOnType": false,
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "terminal.integrated.enablePersistentSessions": false,
-    "workbench.colorTheme": "Monokai",
-    "search.exclude": {
-        "**/venv/**": true,
-        "**/.venv/**": true
-    },
-    "editor.minimap.enabled": false,
-    "python.pythonPath": "./.venv/bin/python3",
-    "workbench.sideBar.location": "right",
-    "python.analysis.logLevel": "Warning",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "python.defaultInterpreterPath": ".venv/bin/python",
-    "python.experiments.enabled": false,
-    "python.testing.unittestEnabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": false,
-    "python.linting.enabled": true,
-    "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
-    "[dockerfile]": {
-        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-    },
     "window.commandCenter": true,
-    "terminal.integrated.fontFamily": "Menlo for Powerline",
     "window.menuBarVisibility": "visible",
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "workbench.editor.untitled.hint": "hidden",
-    "window.zoomLevel": 0.18
+    "gopls": {
+        "ui.semanticTokens": true,
+        "formatting.gofumpt": true,
+        "editor.defaultFormatter": "golang.go"
+    }
 }

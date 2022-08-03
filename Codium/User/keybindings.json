@@ -261,5 +261,13 @@
     {
         "key": "ctrl+e ctrl+p",
         "command": "workbench.action.previousSideBarView"
+    },
+    {
+        "key": "ctrl+shift+f11",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "shift+f11",
+        "command": "-workbench.action.toggleZenMode"
     }
 ]

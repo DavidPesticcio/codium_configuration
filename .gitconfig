@@ -1,0 +1,17 @@
+[core]
+excludefiles = .gitignore
+editor = codium --wait --new-window
+[user]
+email = vanvuvuong3@gmail.com
+name = Tran Dinh Dong
+[diff]
+tool = codium
+[merge]
+tool = codium
+[global]
+[gui]
+editor = codium
+[difftool "codium"]
+cmd = code --wait --diff $LOCAL $REMOTE
+[mergetool "codium"]
+cmd = code --wait $MERGED
