@@ -43,9 +43,7 @@
     "editor.fontFamily": "Menlo for Powerline",
     "editor.fontSize": 15,
     "editor.maxTokenizationLineLength": 200000,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
+    "editor.codeActionsOnSave": {},
     "editor.largeFileOptimizations": false,
     "editor.linkedEditing": true,
     "editor.formatOnPaste": true,
