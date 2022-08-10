@@ -227,19 +227,19 @@
         "command": "gitlens.views.timeline.focus"
     },
     {
-        "key": "ctrl+shift+u j",
+        "key": "ctrl+shift+k j",
         "command": "workbench.action.terminal.resizePaneDown"
     },
     {
-        "key": "ctrl+shift+u k",
+        "key": "ctrl+shift+k k",
         "command": "workbench.action.terminal.resizePaneUp"
     },
     {
-        "key": "ctrl+shift+u e",
+        "key": "ctrl+shift+k e",
         "command": "workbench.files.action.collapseExplorerFolders"
     },
     {
-        "key": "ctrl+shift+u o",
+        "key": "ctrl+shift+k o",
         "command": "outline.collapse"
     },
     {
