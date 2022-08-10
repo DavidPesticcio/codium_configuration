@@ -58,15 +58,6 @@
     //
     // Controls if file decorations should use badges.
     "explorer.decorations.badges": false,
-    // exclude
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true
-    },
-    "files.trimTrailingWhitespace": true,
     /* Search & Extension */
     "search.useIgnoreFiles": false,
     "search.quickOpen.includeSymbols": true,
@@ -88,6 +79,19 @@
         "file:///home/kris/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "window.closeWhenEmpty": true,
+    "window.zoomLevel": 0.18,
+    "window.commandCenter": true,
+    "window.menuBarVisibility": "visible",
+    //
+    /* File Configuration */
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "files.trimTrailingWhitespace": true,
     "files.watcherExclude": {
         "**/*.*venv*/**": true,
         "**/*test*": true,
@@ -97,14 +101,20 @@
     },
     "files.associations": {
         "*.conf": "powershell",
-        "*.txt": "python"
+        "*.txt": "plaintext",
+        "*.[yaml,yml]": "yaml",
+        "*Vagrantfile*": "ruby",
+        "*.py": "python",
+        "*.json": "json",
+        "*.go": "go",
+        "*Dockerfile*": "dockerfile"
     },
+    //
     /* Python */
     "python.globalModuleInstallation": true,
     "python.languageServer": "None",
     "python.linting.lintOnSave": false,
     "python.linting.maxNumberOfProblems": 50,
-    "python.diagnostics.sourceMapsEnabled": true,
     "python.linting.flake8CategorySeverity.F": "Hint",
     "python.testing.pytestEnabled": true,
     "python.venvPath": "./.venv",
@@ -200,8 +210,6 @@
             }
         ]
     },
-    "window.commandCenter": true,
-    "window.menuBarVisibility": "visible",
     "gopls": {
         "ui.semanticTokens": true,
         "formatting.gofumpt": true,
@@ -213,5 +221,8 @@
         "**/.venv/**",
         "**/venv/**",
         "**/__pycache__/**"
-    ]
+    ],
+    "workbench.editor.preferHistoryBasedLanguageDetection": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "terminal.integrated.gpuAcceleration": "on",
 }

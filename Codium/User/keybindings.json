@@ -279,5 +279,9 @@
         "key": "home",
         "command": "-filebunny.goToTopActiveFile",
         "when": "editorFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k j",
+        "command": "yaml.select.json.schema"
     }
 ]
