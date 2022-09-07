@@ -55,6 +55,7 @@
     "editor.minimap.enabled": false,
     "editor.formatOnSave": true,
     "editor.lineHeight": 24,
+    "editor.stickyScroll.enabled": true,
     //
     // Controls if file decorations should use badges.
     "explorer.decorations.badges": false,
@@ -76,10 +77,10 @@
     "extensions.autoCheckUpdates": false,
     "json.maxItemsComputed": 2000000,
     "yaml.schemas": {
+        "yaml.schemaStore.enable": true,
         "file:///home/kris/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "window.closeWhenEmpty": true,
-    "window.zoomLevel": 0.18,
     "window.commandCenter": true,
     "window.menuBarVisibility": "visible",
     //
@@ -143,6 +144,7 @@
     /* Telemetry & Theme */
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "update.mode": "none",
     "material-icon-theme.files.associations": {},
     "material-icon-theme.activeIconPack": "vue",
@@ -225,4 +227,8 @@
     "workbench.editor.preferHistoryBasedLanguageDetection": true,
     "python.testing.autoTestDiscoverOnSaveEnabled": false,
     "terminal.integrated.gpuAcceleration": "on",
+    "gitlens.rebaseEditor.ordering": "asc",
+    "gitlens.views.repositories.showTags": false,
+    "gitlens.plusFeatures.enabled": false,
+    "gitlens.views.repositories.showCommits": false,
 }

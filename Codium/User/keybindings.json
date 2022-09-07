@@ -180,10 +180,6 @@
         "command": "workbench.action.openWorkspace"
     },
     {
-        "key": "ctrl+shift+g h",
-        "command": "gitlens.openFileHistory"
-    },
-    {
         "key": "ctrl+shift+escape",
         "command": "workbench.action.openSettings2"
     },
@@ -283,5 +279,22 @@
     {
         "key": "ctrl+k j",
         "command": "yaml.select.json.schema"
+    },
+    {
+        "key": "ctrl+shift+k s",
+        "command": "search.action.collapseSearchResults"
+    },
+    {
+        "key": "ctrl+shift+g t",
+        "command": "gitlens.showTagsView"
+    },
+    {
+        "key": "ctrl+shift+g h",
+        "command": "-gitlens.showQuickFileHistory",
+        "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
+    },
+    {
+        "key": "ctrl+shift+g h",
+        "command": "gitlens.showFileHistoryView"
     }
 ]

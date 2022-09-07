@@ -25,7 +25,7 @@ ZSH_THEME="agnoster"
 
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
-zstyle ':omz:update' mode auto      # update automatically without asking
+zstyle ':omz:update' mode auto # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
@@ -97,8 +97,8 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="vi ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="codium ~/.zshrc"
 alias sd="shutdown now"
 alias rb="reboot"
 alias ls="ls -hotal --color=auto"
@@ -109,20 +109,25 @@ alias ins="sudo apt install"
 alias rem="sudo apt purge"
 alias upd="sudo apt update"
 alias upg="sudo apt-get upgrade"
-
+alias sipip="sudo pip install"
+alias ipip="pip install"
+alias arem="sudo apt autoremove"
+alias clean="sudo apt clean"
+# alias pyflame="/home/kris/Code/Github/pyflame/src/pyflame"
+alias flamegraph="/home/kris/Code/Github/FlameGraph/flamegraph.pl"
 export PATH="$HOME/.poetry/bin:$PATH"
 export REPO_DIRECTORY='/home/kris/Code/Github/codium_configuration'
 export CODIUM_USER_CONFIG_PATH="${HOME}/.config/VSCodium/User"
 ## pyenv configs
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-
+export HISTTIMEFORMAT='%d-%m-%Y %T'
+export PATH="$HOME/.cabal/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 function gaio() {
   git add .
   git commit -m "$1"
-  git push 
+  git push
 }
-export GITLAB_HOME=/srv/gitlab
