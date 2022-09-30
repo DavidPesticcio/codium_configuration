@@ -1,6 +1,8 @@
 codium --install-extension 4ops.terraform
+codium --install-extension ahmadalli.vscode-nginx-conf
 codium --install-extension bmewburn.vscode-intelephense-client
 codium --install-extension christian-kohler.npm-intellisense
+codium --install-extension dcasella.monokai-plusplus
 codium --install-extension dsznajder.es7-react-js-snippets
 codium --install-extension eamodio.gitlens
 codium --install-extension EditorConfig.EditorConfig

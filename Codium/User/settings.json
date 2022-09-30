@@ -17,13 +17,17 @@
         "*.ipynb": "jupyter-notebook"
     },
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.colorCustomizations": {},
     "workbench.enableExperiments": false,
     "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Monokai",
     "workbench.sideBar.location": "right",
     "workbench.editor.untitled.hint": "hidden",
+    "workbench.colorCustomizations": {
+        "[Monokai++ Unified]": {
+            "editor.background": "#191a15",
+            "statusBar.background": "#1c3035",
+        }
+    },
     //
     /* Git */
     "git.enableStatusBarSync": true,
@@ -56,6 +60,127 @@
     "editor.formatOnSave": true,
     "editor.lineHeight": 24,
     "editor.stickyScroll.enabled": true,
+    "editor.tokenColorCustomizations": {
+        "[Monokai++ Unified]": {
+            "textMateRules": [
+                {
+                    "scope": "storage.type.function.python",
+                    "settings": {
+                        "fontStyle": "italic",
+                        "foreground": "#66d9ef"
+                    }
+                },
+                {
+                    "scope": "storage.type.class.python",
+                    "settings": {
+                        "fontStyle": "italic",
+                        "foreground": "#66d9ef"
+                    }
+                },
+                {
+                    "scope": "meta.function.decorator.python",
+                    "settings": {
+                        "foreground": "#66d9ef",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "support.type.python",
+                    "settings": {
+                        "foreground": "#66d9ef",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.function.lambda.python",
+                    "settings": {
+                        "foreground": "#66d9ef",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.decorator.python",
+                    "settings": {
+                        "foreground": "#a6e22e",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.class.python",
+                    "settings": {
+                        "foreground": "#a6e22e",
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "scope": "meta.function-call.generic.python",
+                    "settings": {
+                        "foreground": "#f8f8f2"
+                    }
+                },
+                {
+                    "scope": "meta.fstring.python",
+                    "settings": {
+                        "foreground": "#f8f8f2"
+                    }
+                },
+                {
+                    "scope": "source.python",
+                    "settings": {
+                        "foreground": "#f8f8f2"
+                    }
+                },
+                {
+                    "scope": "meta.attribute.python",
+                    "settings": {
+                        "foreground": "#f8f8f2"
+                    }
+                },
+                {
+                    "scope": "support.variable.magic.python",
+                    "settings": {
+                        "foreground": "#f8f8f2"
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function.language.python",
+                    "settings": {
+                        "foreground": "#fd971f"
+                    }
+                },
+                {
+                    "scope": "variable.language.special.self.python",
+                    "settings": {
+                        "foreground": "#fd971f"
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function.language.special.self.python",
+                    "settings": {
+                        "foreground": "#fd971f"
+                    }
+                },
+                {
+                    "scope": "comment.line.number-sign.python",
+                    "settings": {
+                        "foreground": "#88846f"
+                    }
+                },
+                {
+                    "scope": "constant.character.format.placeholder.other.python",
+                    "settings": {
+                        "foreground": "#ae81ff"
+                    }
+                },
+                {
+                    "scope": "constant.other.caps.python",
+                    "settings": {
+                        "foreground": "#ae81ff"
+                    }
+                },
+            ]
+        }
+    },
     //
     // Controls if file decorations should use badges.
     "explorer.decorations.badges": false,
@@ -231,4 +356,6 @@
     "gitlens.views.repositories.showTags": false,
     "gitlens.plusFeatures.enabled": false,
     "gitlens.views.repositories.showCommits": false,
+    "nginx-conf-hint.syntax": "sublime",
+    "workbench.colorTheme": "Monokai++ Unified",
 }
