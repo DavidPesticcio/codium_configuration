@@ -24,7 +24,7 @@
     "workbench.editor.untitled.hint": "hidden",
     "workbench.colorCustomizations": {
         "[Monokai++ Unified]": {
-            "editor.background": "#1f1d1d",
+            "editor.background": "#161515",
             "editor.foreground": "#f8f8f2",
             "editor.lineHighlightBackground": "#3e3d32",
             "editor.selectionBackground": "#878b9180",
@@ -41,15 +41,23 @@
             "editorIndentGuide.background": "#464741",
             "editorLineNumber.activeForeground": "#c2c2bf",
             "editorLineNumber.foreground": "#90908a",
-            "editorSuggestWidget.background": "#1f1d1d",
+            "editorSuggestWidget.background": "#161515",
             "editorSuggestWidget.border": "#75715e",
             "editorWhitespace.foreground": "#464741",
             "editorWidget.background": "#1e1f1c",
-            "statusBar.background": "#1f1d1d",
-            "tab.activeBackground": "#1f1d1d",
-            "terminal.ansiBlack": "#1f1d1d",
-            "terminalCursor.background": "#1f1d1d",
-            "dropdown.background": "#1f1d1d",
+            "activityBar.background": "#161515",
+            "terminalCursor.background": "#161515",
+            "dropdown.background": "#161515",
+            "panel.background": "#161515",
+            "scrollbar.shadow": "#161515",
+            "sideBar.background": "#161515",
+            "sideBarTitle.foreground": "#161515",
+            "statusBar.background": "#161515",
+            "statusBar.noFolderBackground": "#161515",
+            "tab.activeBackground": "#161515",
+            "tab.border": "#161515",
+            "terminal.ansiBlack": "#161515",
+            "terminal.background": "#161515"
         }
     },
     //
