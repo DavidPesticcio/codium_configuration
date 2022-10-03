@@ -391,6 +391,18 @@
                     }
                 },
                 {
+                    "scope": "meta.attribute.python, meta.member.access.python",
+                    "settings": {
+                        "foreground": "#F8F8F2"
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function.language.special.self.python, variable.parameter.function.language.python",
+                    "settings": {
+                        "foreground": "#FD971F"
+                    }
+                },
+                {
                     "scope": [
                         "punctuation.definition.list.begin.markdown"
                     ],
@@ -424,6 +436,12 @@
                 },
                 {
                     "scope": "variable.language",
+                    "settings": {
+                        "foreground": "#FD971F"
+                    }
+                },
+                {
+                    "scope": "variable.language.special.self.python",
                     "settings": {
                         "foreground": "#FD971F"
                     }
