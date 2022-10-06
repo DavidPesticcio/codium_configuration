@@ -23,7 +23,7 @@
     "workbench.sideBar.location": "right",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.colorCustomizations": {
-        "[Monokai++ Unified]": {
+        "[Monokai++]": {
             "editor.background": "#161515",
             "editor.foreground": "#f8f8f2",
             "editor.lineHighlightBackground": "#3e3d32",
@@ -52,7 +52,7 @@
             "scrollbar.shadow": "#161515",
             "sideBar.background": "#161515",
             "sideBarTitle.foreground": "#161515",
-            "statusBar.background": "#161515",
+            "statusBar.background": "#007ACC",
             "statusBar.noFolderBackground": "#161515",
             "tab.activeBackground": "#161515",
             "tab.border": "#161515",
@@ -93,7 +93,7 @@
     "editor.lineHeight": 24,
     "editor.stickyScroll.enabled": true,
     "editor.tokenColorCustomizations": {
-        "[Monokai++ Unified]": {
+        "[Monokai++]": {
             "textMateRules": [
                 {
                     "scope": [
@@ -391,18 +391,6 @@
                     }
                 },
                 {
-                    "scope": "meta.attribute.python, meta.member.access.python",
-                    "settings": {
-                        "foreground": "#F8F8F2"
-                    }
-                },
-                {
-                    "scope": "variable.parameter.function.language.special.self.python, variable.parameter.function.language.python",
-                    "settings": {
-                        "foreground": "#FD971F"
-                    }
-                },
-                {
                     "scope": [
                         "punctuation.definition.list.begin.markdown"
                     ],
@@ -445,7 +433,7 @@
                     "settings": {
                         "foreground": "#FD971F"
                     }
-                }
+                },
             ]
         }
     },
@@ -526,7 +514,7 @@
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.logLevel": "Warning",
     "python.pythonPath": "./.venv/bin/python3",
-    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.defaultInterpreterPath": "/bin/python3",
     "python.experiments.enabled": false,
     "python.testing.unittestEnabled": true,
     "python.linting.pylintEnabled": false,
@@ -625,5 +613,8 @@
     "gitlens.plusFeatures.enabled": false,
     "gitlens.views.repositories.showCommits": false,
     "nginx-conf-hint.syntax": "sublime",
-    "workbench.colorTheme": "Monokai++ Unified",
+    "workbench.colorTheme": "Monokai++",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 }
