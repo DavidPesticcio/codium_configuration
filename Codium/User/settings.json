@@ -23,7 +23,7 @@
     "workbench.sideBar.location": "right",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.colorCustomizations": {
-        "[Monokai++]": {
+        "[Monokai]": {
             "editor.background": "#161515",
             "editor.foreground": "#f8f8f2",
             "editor.lineHighlightBackground": "#3e3d32",
@@ -93,7 +93,7 @@
     "editor.lineHeight": 24,
     "editor.stickyScroll.enabled": true,
     "editor.tokenColorCustomizations": {
-        "[Monokai++]": {
+        "[Monokai]": {
             "textMateRules": [
                 {
                     "scope": [
@@ -613,7 +613,7 @@
     "gitlens.plusFeatures.enabled": false,
     "gitlens.views.repositories.showCommits": false,
     "nginx-conf-hint.syntax": "sublime",
-    "workbench.colorTheme": "Monokai++",
+    "workbench.colorTheme": "Monokai",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
