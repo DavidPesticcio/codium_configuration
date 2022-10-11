@@ -440,6 +440,12 @@
                         "foreground": "#FD971F"
                     }
                 },
+                {
+                    "scope": "meta.function-call.generic.python",
+                    "settings": {
+                        "foreground": "#A6E22E"
+                    }
+                },
             ]
         }
     },
