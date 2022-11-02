@@ -16,10 +16,8 @@ codium --install-extension ms-vscode.sublime-keybindings
 codium --install-extension mtxr.sqltools
 codium --install-extension njpwerner.autodocstring
 codium --install-extension PKief.material-icon-theme
-codium --install-extension redhat.ansible
 codium --install-extension redhat.vscode-yaml
 codium --install-extension robole.file-bunny
 codium --install-extension sourcery.sourcery
 codium --install-extension vscodevim.vim
 codium --install-extension xabikos.JavaScriptSnippets
-codium --install-extension yzhang.markdown-all-in-one
