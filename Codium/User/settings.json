@@ -20,7 +20,6 @@
     "workbench.enableExperiments": false,
     "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.sideBar.location": "right",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.colorCustomizations": {
         "[Monokai]": {
@@ -474,7 +473,6 @@
     },
     "window.closeWhenEmpty": true,
     "window.commandCenter": true,
-    "window.menuBarVisibility": "visible",
     //
     /* File Configuration */
     "files.exclude": {
@@ -637,4 +635,5 @@
     "terminal.integrated.tabs.showActions": "always",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "editor.minimap.enabled": false,
+    "jupyter.jupyterLaunchTimeout": 6000,
 }
