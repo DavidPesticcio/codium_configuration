@@ -7,10 +7,12 @@ codium --install-extension eamodio.gitlens
 codium --install-extension EditorConfig.EditorConfig
 codium --install-extension foxundermoon.shell-format
 codium --install-extension golang.go
+codium --install-extension HansUXdev.bootstrap5-snippets
 codium --install-extension HookyQR.beautify
 codium --install-extension ms-azuretools.vscode-docker
 codium --install-extension ms-pyright.pyright
 codium --install-extension ms-python.python
+codium --install-extension ms-toolsai.jupyter
 codium --install-extension ms-vscode.live-server
 codium --install-extension ms-vscode.sublime-keybindings
 codium --install-extension mtxr.sqltools

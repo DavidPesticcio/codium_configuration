@@ -472,7 +472,6 @@
         "file:///home/kris/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "window.closeWhenEmpty": true,
-    "window.commandCenter": true,
     //
     /* File Configuration */
     "files.exclude": {
@@ -636,4 +635,9 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "editor.minimap.enabled": false,
     "jupyter.jupyterLaunchTimeout": 6000,
+    "window.commandCenter": true,
+    "window.doubleClickIconToClose": true,
+    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 0.1,
 }

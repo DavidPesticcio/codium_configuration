@@ -44,7 +44,7 @@ while true; do
         ;;
     [4])
         echo "Export Codium Extensions installation script"
-        codium --list-extensions | xargs -L 1 echo codium --install-extension --force |& tee ${REPO_DIRECTORY}/scripts/extensions/extension.sh
+        codium --list-extensions | xargs -L 1 echo codium --install-extension |& tee ${REPO_DIRECTORY}/scripts/extensions/extension.sh
         break
         ;;
     esac
