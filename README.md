@@ -41,3 +41,8 @@ Terminal > Run Task > Git Commit Change
 ```
 Terminal > Run Task > Git Push Change
 ```
+
+# 4. In case you couldn't run it via VSCode Task, please run these script instead and choose the option:
+```
+scripts/sync_codium.sh
+```
