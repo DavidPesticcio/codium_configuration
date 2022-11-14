@@ -640,4 +640,6 @@
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 0.1,
+    "reactSnippets.settings.typescriptPropsStatePrefix": "interface",
+    "js/ts.implicitProjectConfig.target": "ES6",
 }
