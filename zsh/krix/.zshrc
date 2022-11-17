@@ -10,6 +10,11 @@ export CODIUM_USER_CONFIG_PATH="${HOME}/.config/VSCodium/User"
 export PYENV_ROOT="$HOME/.pyenv"
 export HISTTIMEFORMAT='%d-%m-%Y %T'
 export LANG=en_US.UTF-8
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+
+[[ -s "/home/kris/.gvm/scripts/gvm" ]] && source "/home/kris/.gvm/scripts/gvm"
 
 ZSH_THEME="agnoster"
 
@@ -28,7 +33,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Plugins
-plugins=(git terraform docker zsh-autosuggestions poetry sudo zsh-syntax-highlighting z vscode)
+plugins=(git terraform docker minikube zsh-autosuggestions poetry sudo zsh-syntax-highlighting z vscode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -60,12 +65,11 @@ alias rsservice="sudo systemctl restart"
 alias enservice="sudo systemctl enable"
 alias disservice="sudo systemctl disable"
 alias reservice="sudo systemctl daemon-reload"
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
 function gaio() {
   git add .
   git commit -m "$1"
   git push
 }
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
