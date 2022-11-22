@@ -99,6 +99,9 @@
     "editor.formatOnSave": true,
     "editor.lineHeight": 24,
     "editor.stickyScroll.enabled": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
     "editor.tokenColorCustomizations": {
         "[Monokai]": {
             "textMateRules": [
@@ -689,5 +692,14 @@
             "scope": "expr"
         }
     },
+    "rust-analyzer.lens.debug.enable": false,
+    "rust-analyzer.hover.actions.debug.enable": false,
     "rust-analyzer.completion.privateEditable.enable": true,
+    "rust-analyzer.highlightRelated.yieldPoints.enable": false,
+    "rust-analyzer.lens.implementations.enable": false,
+    "rust-analyzer.lens.enable": false,
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    }
 }

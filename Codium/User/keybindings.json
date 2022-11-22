@@ -193,11 +193,6 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+u ctrl+0",
-        "command": "editor.unfoldAll",
-        "when": "editorFocus"
-    },
-    {
         "key": "ctrl+k ctrl+0",
         "command": "-editor.unfoldAll",
         "when": "editorFocus"
@@ -507,14 +502,6 @@
         "mac": "cmd+alt+]",
         "key": "ctrl+shift+]",
         "command": "editor.unfold",
-        "when": "editorFocus"
-    },
-    {
-        "mac": "cmd+k cmd+0",
-        "win": "ctrl+k ctrl+0",
-        "linux": "ctrl+k ctrl+0",
-        "key": "ctrl+k ctrl+0",
-        "command": "editor.unfoldAll",
         "when": "editorFocus"
     },
     {
@@ -835,5 +822,14 @@
         "key": "shift+alt+o",
         "command": "-editor.action.organizeImports",
         "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+    },
+    {
+        "key": "ctrl+u ctrl+0",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+alt+k l",
+        "command": "livePreview.start.internalPreview.atFile"
     }
 ]
