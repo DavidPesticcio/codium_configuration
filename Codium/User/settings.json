@@ -701,5 +701,11 @@
     "tailwindCSS.emmetCompletions": true,
     "tailwindCSS.includeLanguages": {
         "plaintext": "html"
-    }
+    },
+    "breadcrumbs.showBooleans": false,
+    "breadcrumbs.showConstants": false,
+    "breadcrumbs.showNull": false,
+    "outline.showConstants": false,
+    "outline.showNull": false,
+    "outline.showNumbers": false
 }

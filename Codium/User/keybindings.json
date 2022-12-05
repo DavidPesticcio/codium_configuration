@@ -142,11 +142,6 @@
     },
     {
         "key": "ctrl+shift+k",
-        "command": "editor.action.deleteLines",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+k",
         "command": "-editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
     },
@@ -558,14 +553,6 @@
         "command": "editor.action.startFindReplaceAction"
     },
     {
-        "mac": "ctrl+shift+k",
-        "win": "ctrl+shift+k",
-        "linux": "ctrl+shift+k",
-        "key": "ctrl+shift+k",
-        "command": "editor.action.deleteLines",
-        "when": "editorFocus"
-    },
-    {
         "mac": "ctrl+shift+backspace",
         "win": "ctrl+shift+backspace",
         "linux": "ctrl+shift+backspace",
@@ -829,7 +816,11 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+alt+k l",
+        "key": "ctrl+shift+k l",
         "command": "livePreview.start.internalPreview.atFile"
+    },
+    {
+        "key": "ctrl+shift+k r",
+        "command": "workbench.action.reloadWindow"
     }
 ]
