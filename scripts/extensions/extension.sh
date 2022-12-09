@@ -13,10 +13,10 @@ codium --install-extension ms-pyright.pyright
 codium --install-extension ms-python.python
 codium --install-extension ms-vscode.live-server
 codium --install-extension mtxr.sqltools
-codium --install-extension njpwerner.autodocstring
 codium --install-extension PKief.material-icon-theme
 codium --install-extension redhat.vscode-yaml
 codium --install-extension robole.file-bunny
+codium --install-extension rogalmic.bash-debug
 codium --install-extension rust-lang.rust-analyzer
 codium --install-extension serayuzgur.crates
 codium --install-extension sourcery.sourcery

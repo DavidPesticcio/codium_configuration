@@ -73,3 +73,4 @@ function gaio() {
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+fpath+=${ZDOTDIR:-~}/.zsh_functions
