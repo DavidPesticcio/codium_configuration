@@ -4,7 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/kris/.oh-my-zsh"
 export PYTHONPYCACHEPREFIX=/home/kris/.pyc
-export PATH="$HOME/.poetry/bin:$PYENV_ROOT/bin:$HOME/.cabal/bin:$PATH:/usr/local/go/bin"
+export PATH="$HOME/.local/bin:$PYENV_ROOT/bin:$HOME/.cabal/bin:$PATH:/usr/local/go/bin"
 export REPO_DIRECTORY='/home/kris/Code/Github/codium_configuration'
 export CODIUM_USER_CONFIG_PATH="${HOME}/.config/VSCodium/User"
 export PYENV_ROOT="$HOME/.pyenv"
